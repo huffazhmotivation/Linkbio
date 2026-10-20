@@ -1,0 +1,16 @@
+{
+  "name": "linkbio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Halaman tautan + panel admin. Siap deploy ke Netlify atau Vercel.",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  },
+  "scripts": {
+    "dev": "node dev-server.mjs"
+  }
+}
